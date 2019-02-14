@@ -1,0 +1,14 @@
+<img [src]="imagem"/>
+<app-form></app-form>
+<!-- <ul>
+    <li>verde</li>
+    <li>amarelo</li>
+    <li>azul</li>
+    <li>vermelho</li>
+</ul> -->
+
+
+<ul>
+    <li *ngFor="let usuario of usuarios">{{ usuario.nome}}</li>
+</ul>
+
