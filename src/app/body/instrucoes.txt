@@ -13,3 +13,14 @@ criar uma função interna
 estanciar o componente filho com o eventBind
 
 <filho (funcaoDoOutputDoFilho)="funcaoInternaDoPai()"></filho>
+
+
+<p>{{ titulo }}</p> <!--data bind, mostra a variavel do componente na view -->
+
+<img [src]="imagem"/> <!--property bind, via propriedade -->
+
+<button (click)='exibeNome()'> Olaaar</button> <!-- event bind, ele executa uma ação da view no component -->
+
+<form>
+  <input name="titulo" type="text" [(ngModel)]="titulo"/> <!-- two way data bind, duas formas de bind, conversa entre a view e o controller e o controller com a view -->
+</form>
