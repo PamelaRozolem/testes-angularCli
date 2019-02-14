@@ -1,5 +1,5 @@
-<img [src]="imagem"/>
-<app-form></app-form>
+<!-- <img [src]="imagem"/> -->
+<!-- <app-form></app-form> -->
 <!-- <ul>
     <li>verde</li>
     <li>amarelo</li>
@@ -7,8 +7,17 @@
     <li>vermelho</li>
 </ul> -->
 
+<!-- <ul>
+    <li *ngFor="let cor of cores">{{ cor }}</li>
+</ul> -->
 
+
+<!-- 
 <ul>
-    <li *ngFor="let usuario of usuarios">{{ usuario.nome}}</li>
-</ul>
+    <li *ngFor="let usuario of usuarios">{{ usuario.nome }}</li>
+</ul> -->
+<app-button (setUser)="showUser($event)"></app-button>
 
+<h3>Usuario:</h3>
+<p *ngIf="usuarioLogado.nome">Nome: {{ usuarioLogado.nome }}</p>
+<p *ngIf="usuarioLogado.email">Email: {{ usuarioLogado.email}} </p>

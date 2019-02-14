@@ -1,0 +1,12 @@
+criei projeto angularcli
+data bind(enterpolação)
+propety bind
+event bind
+ngmodel(two way data bind)
+criei componente
+passar parametros para componente pelo input
+ngfor
+output 
+ngIf
+
+

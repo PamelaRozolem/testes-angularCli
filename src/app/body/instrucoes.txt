@@ -1,0 +1,15 @@
+criar um componente usuario que vai mover o html e o array 
+
+criar componente chamado qualquer nome vai ter nome email idade , quando clicar 
+
+
+componente table:
+importar EventEmitter e Output
+ criar uma propriedade para Output(parecido com input) estanciar o eventEmitter
+ criar uma função interna que despara o evento criado passando como parametro o usuario 
+
+componente body:
+criar uma função interna 
+estanciar o componente filho com o eventBind
+
+<filho (funcaoDoOutputDoFilho)="funcaoInternaDoPai()"></filho>
